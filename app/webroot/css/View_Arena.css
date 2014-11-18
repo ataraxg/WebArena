@@ -8,4 +8,5 @@ and open the template in the editor.
     Author     : antoine
 */
 
-h1{color: white;}
+h1{color: white;
+padding: 0.5em;}

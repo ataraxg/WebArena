@@ -1,11 +1,14 @@
-<div class="contain-to-grid">
-  <nav class="top-bar" data-topbar>
-    <ul class="title-area">
-      <li class="name">
-        <h1>WebArena</h1>
-      </li>
-    </ul>
-
+<html>
+<div>
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name">
+                 <h1>WEB ARENA</h1>
+            </li>
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a> <!-- Non responsive :(   WHYYYYY ? -->
+            </li>
+        </ul>
+    
     <section class="top-bar-section">
       <!-- Right Nav Section -->
       <ul class="right">
@@ -39,3 +42,4 @@
     </section>
   </nav>
 </div>
+</html>
