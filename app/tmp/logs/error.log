@@ -183,3 +183,102 @@ Stack Trace:
 #10 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
 #11 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2014-11-18 10:58:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/chara.jpg
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:32:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/chara.jpg
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:33:17 Error: [MissingControllerException] Controller class MashesController could not be found.
+Exception Attributes: array (
+  'class' => 'MashesController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Mashes/facemash_scores
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:35:06 Error: [MissingControllerException] Controller class MashesController could not be found.
+Exception Attributes: array (
+  'class' => 'MashesController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Mashes/facemash
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:35:08 Error: [MissingControllerException] Controller class MashesController could not be found.
+Exception Attributes: array (
+  'class' => 'MashesController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Mashes/facemash_scores
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:35:10 Error: [MissingControllerException] Controller class MashesController could not be found.
+Exception Attributes: array (
+  'class' => 'MashesController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Mashes/add
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:35:43 Error: [MissingControllerException] Controller class MashesController could not be found.
+Exception Attributes: array (
+  'class' => 'MashesController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Mashes/facemash_scores
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:37:19 Error: [MissingControllerException] Controller class ArenaControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'ArenaControllerController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/ArenaController/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:37:51 Error: [MissingControllerException] Controller class ArenaControllerController could not be found.
+Exception Attributes: array (
+  'class' => 'ArenaControllerController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/ArenaController/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:39:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/chara.jpg
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 11:42:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/chara.jpg
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
