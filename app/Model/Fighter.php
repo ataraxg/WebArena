@@ -313,7 +313,7 @@ App::uses('AppModel', 'Model');
                             'Fighter' => array(
                                 'name' => $name,
                                 'coordinate_x' => $coordinate_x,
-                                'coordinate_y' => $coordinate_y,
+                                'coordinate_y' => $coordinate_y,caca
                                 'level' => 0,
                                 'xp' => 0,
                                 'skill_sight' => 0,
