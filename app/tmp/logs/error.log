@@ -1,0 +1,63 @@
+2014-11-17 18:49:19 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:02:59 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:15:48 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:16:08 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/arena
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:18:28 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:20:14 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:20:45 Error: [MissingControllerException] Controller class WebarenaController could not be found.
+Exception Attributes: array (
+  'class' => 'WebarenaController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/webarena/index
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
