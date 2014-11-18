@@ -61,3 +61,125 @@ Request URL: /WebArena/webarena/index
 Stack Trace:
 #0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-11-18 10:27:22 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/index
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:27:30 Error: [MissingControllerException] Controller class SightController could not be found.
+Exception Attributes: array (
+  'class' => 'SightController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-18 10:29:00 Error: [MissingTableException] Table fighters for model Fighter was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'fighters',
+  'class' => 'Fighter',
+  'ds' => 'default',
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(3566): Model->setSource('fighters')
+#1 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(2947): Model->getDataSource()
+#2 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#3 E:\wamp\www\WebArena\app\Controller\ArenaController.php(72): Model->find('all')
+#4 [internal function]: ArenaController->sight()
+#5 E:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#6 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#8 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-11-18 10:35:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'doMove' à la ligne 1
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('doMove', Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('doMove', Array, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('doMove', Array, Array)
+#4 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(808): DboSource->query('doMove', Array, Object(AppModel))
+#5 E:\wamp\www\WebArena\app\Controller\ArenaController.php(64): Model->__call('doMove', Array)
+#6 E:\wamp\www\WebArena\app\Controller\ArenaController.php(64): AppModel->doMove(1, 'east')
+#7 [internal function]: ArenaController->sight()
+#8 E:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#9 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#11 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-18 10:35:34 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'doMove' à la ligne 1
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('doMove', Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('doMove', Array, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('doMove', Array, Array)
+#4 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(808): DboSource->query('doMove', Array, Object(AppModel))
+#5 E:\wamp\www\WebArena\app\Controller\ArenaController.php(64): Model->__call('doMove', Array)
+#6 E:\wamp\www\WebArena\app\Controller\ArenaController.php(64): AppModel->doMove(1, 'east')
+#7 [internal function]: ArenaController->sight()
+#8 E:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#9 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#11 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-18 10:35:47 Error: [MissingActionException] Action ArenaController::fighter() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'fighter',
+)
+Request URL: /WebArena/Arena/fighter
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-18 10:36:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'get_carac' à la ligne 1
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('get_carac', Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('get_carac', Array, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('get_carac', Array, Array)
+#4 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(808): DboSource->query('get_carac', Array, Object(AppModel))
+#5 E:\wamp\www\WebArena\app\Controller\ArenaController.php(40): Model->__call('get_carac', Array)
+#6 E:\wamp\www\WebArena\app\Controller\ArenaController.php(40): AppModel->get_carac(1, 'skill_strength')
+#7 [internal function]: ArenaController->character()
+#8 E:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#9 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#11 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-18 10:36:56 Error: [MissingActionException] Action ArenaController::nav() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'nav',
+)
+Request URL: /WebArena/Arena/nav
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-18 10:37:36 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 Erreur de syntaxe près de 'doMove' à la ligne 1
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('doMove', Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('doMove', Array, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('doMove', Array, Array)
+#4 E:\wamp\www\WebArena\lib\Cake\Model\Model.php(808): DboSource->query('doMove', Array, Object(AppModel))
+#5 E:\wamp\www\WebArena\app\Controller\ArenaController.php(64): Model->__call('doMove', Array)
+#6 E:\wamp\www\WebArena\app\Controller\ArenaController.php(64): AppModel->doMove(1, 'north')
+#7 [internal function]: ArenaController->sight()
+#8 E:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#9 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#11 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
