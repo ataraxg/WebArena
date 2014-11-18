@@ -2,7 +2,7 @@
 
     <h1>Your character:</h1>
     
-    <?php echo $this->Html->image('chara.jpg', array('alt' => 'CakePHP', 'width' => '12%')); ?>
+    <?php echo $this->Html->image('perso.jpeg', array('alt' => 'CakePHP', 'width' => '12%')); ?>
     
     <h2>Skills:</h2>
     

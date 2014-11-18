@@ -21,7 +21,7 @@ class ArenaController extends AppController
     
     public function index()
     {
-        $this->set('myname', "Val Isautier");
+        $this->set('myname', "Antoine G");
     }
     
     public function login()

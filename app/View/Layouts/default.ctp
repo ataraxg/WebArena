@@ -83,7 +83,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			</div>
 		</div>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	
 
 	<?php //ce script qui suit sert à activer certains éléments de foundation dans les pages, mettez le sans vous en préoccuper plus que ça ?>
 	<script>
