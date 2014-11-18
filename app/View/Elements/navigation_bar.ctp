@@ -17,6 +17,20 @@
 
       <!-- Left Nav Section -->
       <ul class="left">
+      <li>
+          <?php
+            echo $this->Html->link('Home', array(
+              'controller' => 'Arena',
+              'action'=>'index'));
+          ?>
+        </li>
+        <li>
+          <?php
+            echo $this->Html->link('Login', array(
+              'controller' => 'Arena',
+              'action'=>'login'));
+          ?>
+        </li>
         <li class='active'>
           <?php
             echo $this->Html->link('Sight ', array(
