@@ -31,12 +31,13 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 
 		//on importe le css de foundation (version minimisée)
 		echo $this->Html->css('foundation.min');
-                echo $this->Html->css('View_arena.css');
+                echo $this->Html->css('View_arena');
 
 		//ici on importe jQuery (donné par foundation) et le javascript du framework foundation
 		echo $this->Html->script('vendor/jquery.js');
 		echo $this->Html->script('vendor/fastclick.js');
 		echo $this->Html->script('foundation.min.js');
+                echo $this->Html->script('foundation/foundation.topbar');
 		
 		//balises de cakePHP qui ira placer ici des éventuels ajouts de scripts et de design qui vous mettrez dans vos pages
 		echo $this->fetch('meta');
@@ -83,7 +84,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 			</div>
 		</div>
 	</div>
-	
+	<?php echo $this->element('sql_dump'); ?>
 
 	<?php //ce script qui suit sert à activer certains éléments de foundation dans les pages, mettez le sans vous en préoccuper plus que ça ?>
 	<script>
