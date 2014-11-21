@@ -59,31 +59,25 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 	?>
 
 	<div id="container">
-		<div id="content">
-			<div class="panel">
+            <div id="content">
+                <div class="panel">
 
 
-			<?php //ici on affiche les messages flash (avant le contenu de la vue)
-				echo $this->Session->flash(); 
-			?>
+                <?php //ici on affiche les messages flash (avant le contenu de la vue)
+                        echo $this->Session->flash(); 
+                ?>
 
-			<?php
-				// la ligne suivante affiche le contenu rendu de la page de vue.
-				echo $this->fetch('content'); 
-			?>
+                <?php
+                        // la ligne suivante affiche le contenu rendu de la page de vue.
+                        echo $this->fetch('content'); 
+                ?>
 
-			</div>
-		</div>
+                </div>
+            </div>
+        </div>
+    
+            <?php echo $this->element('footer');  ?>
 
-		<?php // en dessous d'ici, le footer, rien à signaler de particulier ?>
-		<div id="footer">
-			<div class='row'>
-				<div class='large-12 columns'>
-					<p> Auteur : Mubb - Année 2014 </p>
-				</div>
-			</div>
-		</div>
-	</div>
 	<?php echo $this->element('sql_dump'); ?>
 
 	<?php //ce script qui suit sert à activer certains éléments de foundation dans les pages, mettez le sans vous en préoccuper plus que ça ?>
