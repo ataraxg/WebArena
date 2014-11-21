@@ -3,9 +3,8 @@
     <ul class="example-orbit-content"  data-orbit data-options=
         "animation: 'vertical-slide';
         timer: false;
-        captions: true;
         slide_number: false;
-        animation_speed: 700
+        animation_speed: 2000
         bullets: true;">         
         <li> 
             <div class="sliderGlobal">
@@ -53,12 +52,12 @@
                       
                 </div>                    
 
-                <!--
+                
                     <div class='sliderButton'>
-                        <?php //$play = array('class' => 'small button');?>
-                        <?php //echo $this->Form->button('Play this character !',$play);?>
+                        <?php $play = array('class' => 'small button');?>
+                        <?php echo $this->Form->button('Play this character !',$play);?>
                     </div>    
-                -->
+               
             </div>
         </li>
         <li> 

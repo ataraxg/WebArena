@@ -7,6 +7,10 @@ and open the template in the editor.
     Created on : 18 nov. 2014, 11:44:16
     Author     : antoine
 */
+
+.sliderButton{
+    margin-left: 4em;
+}
 .sliderNomFigther{
     text-align: center;
 }
