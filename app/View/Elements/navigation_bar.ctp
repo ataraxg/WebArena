@@ -1,6 +1,6 @@
 <html>
-    <div class="contain-to-grid sticky">
-        <div class="sticky">
+    <div class="">
+        <div class="">
             <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: large">
                 <ul class="title-area">
                     <li class="name">

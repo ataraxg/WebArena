@@ -309,3 +309,423 @@ Request URL: /WebArena/img/chara.jpg
 Stack Trace:
 #0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-11-20 13:50:22 Error: Fatal Error (4): syntax error, unexpected ''level'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [E:\wamp\www\WebArena\app\Model\Fighter.php, line 317]
+2014-11-20 13:50:22 Error: [FatalErrorException] syntax error, unexpected ''level'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 317)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 317, Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 317, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 14:10:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:12:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:13:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:13:35 Error: [MissingActionException] Action ArenaController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'js',
+)
+Request URL: /WebArena/Arena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 14:13:35 Error: [MissingActionException] Action ArenaController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'js',
+)
+Request URL: /WebArena/Arena/js/vendor/jquery.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 14:13:35 Error: [MissingActionException] Action ArenaController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'js',
+)
+Request URL: /WebArena/Arena/js/foundation/foundation.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 14:13:35 Error: [MissingActionException] Action ArenaController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'js',
+)
+Request URL: /WebArena/Arena/js/foundation/foundation.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 14:13:36 Error: [MissingActionException] Action ArenaController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'js',
+)
+Request URL: /WebArena/Arena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 14:15:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:19:41 Error: Fatal Error (4): syntax error, unexpected '?>' in [E:\wamp\www\WebArena\app\View\Elements\Characsliders.ctp, line 9]
+2014-11-21 14:19:41 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 9, Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 9, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 14:19:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:21:36 Error: Fatal Error (4): syntax error, unexpected '?>' in [E:\wamp\www\WebArena\app\View\Elements\Characsliders.ctp, line 9]
+2014-11-21 14:21:36 Error: [FatalErrorException] syntax error, unexpected '?>'
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 9, Array)
+#2 E:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'E:\\wamp\\www\\Web...', 9, Array)
+#3 E:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 14:21:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:22:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:24:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:38:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:40:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:40:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:40:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso1.png
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:41:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:41:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso1.png
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 14:41:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:20:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.modernizr.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:22:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:23:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:23:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:24:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:24:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:34:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:35:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:40:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:40:06 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:40:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/js/foundation/foundation.orbit.js
+Stack Trace:
+#0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-21 15:40:43 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:42:24 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:42:31 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:43:32 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:43:35 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:44:00 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:44:09 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 15:59:22 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-21 16:00:09 Error: [MissingActionException] Action ArenaController::perso1.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso1.jpeg',
+)
+Request URL: /WebArena/Arena/perso1.jpeg
+Stack Trace:
+#0 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

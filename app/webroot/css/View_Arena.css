@@ -7,10 +7,42 @@ and open the template in the editor.
     Created on : 18 nov. 2014, 11:44:16
     Author     : antoine
 */
+.orbit-container{
+    background-color: red;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    background: none repeat scroll 0% 0% transparent;
 
+}
 h1{color: white;
 padding: 0.5em;}
 
 .bandeau{
     margin-left: 4em;
 }
+
+#gamePanel{
+    width:100%;
+    background: #341C45;
+    box-shadow: 1px 1px 14px #0B0703;
+    border-radius: 0.5em;
+    margin: auto;
+}
+
+.gameTable{
+   
+   float: right;
+   clear: both;
+}
+
+
+.clearfix{
+    clear:both;
+}
+
+.resizeSlider{
+    width: 50%;
+    box-shadow: 1px 1px 14px #0B0703;
+}
+
