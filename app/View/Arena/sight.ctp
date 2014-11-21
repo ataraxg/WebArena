@@ -29,8 +29,6 @@
     
     ?>
     
-    <?php echo $this->element('Characsliders')?>
-    
    <div>
     <h1>GAME PANEL</h1>
     <div id="gamePanel" class="panel">
@@ -59,6 +57,10 @@
                 }
             ?>
         </table>
+        <div class="slides">
+          
+    <?php echo $this->element('Characsliders')?>
+    </div>
         <div class="clearfix"></div>
     </div>
 </div>

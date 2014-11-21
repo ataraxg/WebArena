@@ -7,13 +7,29 @@ and open the template in the editor.
     Created on : 18 nov. 2014, 11:44:16
     Author     : antoine
 */
-.orbit-container{
-    background-color: red;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-    background: none repeat scroll 0% 0% transparent;
+.sliderNomFigther{
+    text-align: center;
+}
+.slides{
+    width: 25%;
+    
+}
+.large-6{
+    float: left;
+}
 
+.sliderGlobal{
+    background-color: #333333;
+    padding:1em;
+}
+.sliderView{
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    padding:1em;
+    
 }
 h1{color: white;
 padding: 0.5em;}
@@ -33,7 +49,8 @@ padding: 0.5em;}
 .gameTable{
    
    float: right;
-   clear: both;
+   margin-right: 2em;
+   margin-top: 1em;
 }
 
 
@@ -42,7 +59,7 @@ padding: 0.5em;}
 }
 
 .resizeSlider{
-    width: 50%;
-    box-shadow: 1px 1px 14px #0B0703;
+    width: 100%;
+    box-shadow: 2px 2px 15px #0B0803;
 }
 
