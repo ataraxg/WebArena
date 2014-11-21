@@ -309,3 +309,493 @@ Request URL: /WebArena/img/chara.jpg
 Stack Trace:
 #0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-11-21 12:08:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-21 12:08:46 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 12:08:51 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 16:14:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 16:15:02 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 16:15:05 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 16:15:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:05:40 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:05:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:05:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:08:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:16:27 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:16:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:16:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:16:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:20:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:21:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 17:22:55 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 18:05:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-21 18:10:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-21 18:10:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-21 18:21:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(72): Model->find('all')
+#8 [internal function]: ArenaController->sight()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

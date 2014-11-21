@@ -7,10 +7,34 @@ and open the template in the editor.
     Created on : 18 nov. 2014, 11:44:16
     Author     : antoine
 */
+@font-face{
+    font-family: "RomanSD"; 
+    src: url('../files/Roman SD.ttf') format('truetype');
+}
 
 h1{color: white;
 padding: 0.5em;}
 
 .bandeau{
     margin-left: 4em;
+}
+
+
+.monFooter{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    font-size: small;
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+}
+
+p{
+    font-size: x-small;
+}
+
+.Rules{
+    padding-left: 100px;
+    padding-right: 100px;
 }
