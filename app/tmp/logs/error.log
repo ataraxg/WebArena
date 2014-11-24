@@ -309,3 +309,340 @@ Request URL: /WebArena/img/chara.jpg
 Stack Trace:
 #0 E:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-11-21 15:42:46 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'createCharacter' at line 1
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('createCharacter', Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('createCharacter', Array, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('createCharacter', Array, Array)
+#4 C:\wamp\www\WebArena\lib\Cake\Model\Model.php(808): DboSource->query('createCharacter', Array, Object(Player))
+#5 C:\wamp\www\WebArena\app\Controller\ArenaController.php(31): Model->__call('createCharacter', Array)
+#6 C:\wamp\www\WebArena\app\Controller\ArenaController.php(31): Player->createCharacter('c')
+#7 [internal function]: ArenaController->login()
+#8 C:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#9 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#11 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-11-21 15:44:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'password' cannot be null
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `we...', Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `we...')
+#3 C:\wamp\www\WebArena\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Player), Array, Array)
+#4 C:\wamp\www\WebArena\app\Model\Player.php(35): Model->save(Array)
+#5 C:\wamp\www\WebArena\app\Controller\ArenaController.php(31): Player->signUp('c')
+#6 [internal function]: ArenaController->login()
+#7 C:\wamp\www\WebArena\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#8 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#10 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-11-21 15:56:47 Error: Fatal Error (1): Call to undefined function exists() in [C:\wamp\www\WebArena\app\Model\Player.php, line 27]
+2014-11-21 15:56:47 Error: [FatalErrorException] Call to undefined function exists()
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 27, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 27, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 15:57:20 Error: Fatal Error (1): Call to undefined function exists() in [C:\wamp\www\WebArena\app\Model\Player.php, line 27]
+2014-11-21 15:57:20 Error: [FatalErrorException] Call to undefined function exists()
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 27, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 27, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 16:05:23 Error: Fatal Error (1): Call to a member function exists() on a non-object in [C:\wamp\www\WebArena\app\Model\Player.php, line 26]
+2014-11-21 16:05:23 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-21 16:06:33 Error: Fatal Error (1): Call to a member function exists() on a non-object in [C:\wamp\www\WebArena\app\Model\Player.php, line 26]
+2014-11-21 16:06:33 Error: [FatalErrorException] Call to a member function exists() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-23 11:46:54 Error: [MissingControllerException] Controller class PlayerController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayerController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Player
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-23 11:47:17 Error: Fatal Error (1): Call to a member function allow() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 14]
+2014-11-23 11:47:17 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /WebArena/Players
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 14, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 14, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 13:33:40 Error: Fatal Error (1): Call to a member function login() on a non-object in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 39]
+2014-11-24 13:33:40 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 39, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 39, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 13:33:52 Error: Fatal Error (1): Call to a member function login() on a non-object in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 39]
+2014-11-24 13:33:52 Error: [FatalErrorException] Call to a member function login() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 39)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 39, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 39, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:18:43 Error: Fatal Error (1): Call to undefined function checklogin() in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 40]
+2014-11-24 15:18:43 Error: [FatalErrorException] Call to undefined function checklogin()
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 40, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 40, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:19:48 Error: Fatal Error (1): Call to a member function checklogin() on a non-object in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 40]
+2014-11-24 15:19:48 Error: [FatalErrorException] Call to a member function checklogin() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:19:55 Error: Fatal Error (1): Call to a member function checklogin() on a non-object in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 40]
+2014-11-24 15:19:55 Error: [FatalErrorException] Call to a member function checklogin() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:20:29 Error: Fatal Error (1): Call to a member function checklogin() on a non-object in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 40]
+2014-11-24 15:20:29 Error: [FatalErrorException] Call to a member function checklogin() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:20:36 Error: Fatal Error (1): Call to a member function checklogin() on a non-object in [C:\wamp\www\WebArena\app\Controller\ArenaController.php, line 40]
+2014-11-24 15:20:36 Error: [FatalErrorException] Call to a member function checklogin() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 40, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:20:59 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:21:08 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:21:39 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:22:43 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:22:48 Error: [MissingActionException] Action ArenaController::arena() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'arena',
+)
+Request URL: /WebArena/arena/arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 15:25:20 Error: [MissingControllerException] Controller class PlayersController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayersController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:25:46 Error: [MissingControllerException] Controller class PlayersController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayersController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:25:49 Error: [MissingControllerException] Controller class PlayersController could not be found.
+Exception Attributes: array (
+  'class' => 'PlayersController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:36:38 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\wamp\www\WebArena\app\Model\Player.php, line 66]
+2014-11-24 15:36:38 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 66)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 66, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 66, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:37:09 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\WebArena\app\Model\Player.php, line 58]
+2014-11-24 15:37:09 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:37:20 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\WebArena\app\Model\Player.php, line 58]
+2014-11-24 15:37:20 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:46:12 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\WebArena\app\Model\Player.php, line 58]
+2014-11-24 15:46:12 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:46:18 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\wamp\www\WebArena\app\Model\Player.php, line 58]
+2014-11-24 15:46:18 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 58, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 16:01:55 Error: Fatal Error (1): Class 'SimplePasswordHasher' not found in [C:\wamp\www\WebArena\app\Model\Player.php, line 59]
+2014-11-24 16:01:55 Error: [FatalErrorException] Class 'SimplePasswordHasher' not found
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'SimplePa...', 'C:\\wamp\\www\\Web...', 59)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'SimplePa...', 'C:\\wamp\\www\\Web...', 59, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'SimplePa...', 'C:\\wamp\\www\\Web...', 59, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 17:10:50 Error: [MissingActionException] Action ArenaController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'login',
+)
+Request URL: /WebArena/Arena/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 17:19:53 Error: [MissingActionException] Action ArenaController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'logout',
+)
+Request URL: /WebArena/Arena/logout
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 17:37:32 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 45]
+2014-11-24 17:37:32 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 45, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 45, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 18:33:50 Error: [MissingActionException] Action PlayersController::fb() could not be found.
+Exception Attributes: array (
+  'controller' => 'PlayersController',
+  'action' => 'fb',
+)
+Request URL: /WebArena/Players/fb
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
+#2 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

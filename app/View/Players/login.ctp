@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="large-4" style="margin: auto; padding-top: 2em;">
-            <?php echo $this->Form->input('username');?>
+            <?php echo $this->Form->input('email');?>
         </div>
         <div class="large-4" style="margin: auto;">
             <?php echo $this->Form->input('password');?>
@@ -28,7 +28,6 @@
         <?php
             echo $this->Form->create('Registration');
 
-            echo $this->Form->input('username');
             echo $this->Form->input('password');
             echo $this->Form->input('email');
 

@@ -7,6 +7,7 @@
  */
 
 App::uses('AppModel', 'Model');
+App::uses('SimplePasswordHasher', 'Controller/Component/Auth');
 
 class Player extends AppModel {
 
@@ -20,28 +21,67 @@ class Player extends AppModel {
             'order' => ''
         ),
     );
-
-    public function signUp($email, $password) {
+    public $name = 'Player';
+    public $validate = array(
+        'email' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => 'an email is required'
+            )
+        ),
+        'password' => array(
+            'required' => array(
+                'rule' => array('notEmpty'),
+                'message' => ''
+            )
+        )
+    );
+    
+    public function accountExist($email){
+        $data =  $this->find('first',array('conditions'=>array('email'=>$email)));
+        if($data != null)
+            return true ;
+            else 
+                return false;
         
-        if ($this->exists($email)) {
+    }
+
+    public function createNew($email, $password) {
+
+        if (!$this->accountExist($email)) {
+            $passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha256'));
+            
 
             $newPlayer = array(
                 'Player' => array(
                     'email' => $email,
-                    'password' => $password,
+                    'password' =>  $passwordHasher->hash(
+                $password
+            ),
                 )
             );
 
             $this->save($newPlayer);
+            return true;
         }
+        return false;
     }
 
-    public function Login($email, $password) {
-        
-    }
+    public function checklogin($email, $pw) {
+        $passwordHasher = new SimplePasswordHasher(array('hashType' => 'sha256'));
+        $pw= $passwordHasher->hash(
+                $pw);
+        if ($this->accountExist($email)) {     // si l email existe 
+            $temp = $this->find('first', array(
+                'conditions' => array('Player.email' => $email)));
 
-    public function exists($id = null) {
-        parent::exists($id);
+            if ($pw == $temp['Player']['password']) {  // verifier le mdp correspondant
+                CakeSession::start();
+                   CakeSession::write('name',$temp['Player']['id']);
+                   CakeSession::write('Fighter',null);
+                return true;
+            }
+        }
     }
 
 }

@@ -9,9 +9,19 @@ App::uses('AppController', 'Controller');
  */
 class ArenaController extends AppController
 {
-    
-    
     public $uses = array('Player', 'Fighter', 'Event');
+    
+    public function beforeFilter(){
+        if (!CakeSession::check('name')){
+            
+            $this->redirect(array("controller"=>"Players",
+                            "action"=>"login"));
+        }
+        
+    }    
+    
+    
+    
     
     /**
      * index method : first page
@@ -24,16 +34,14 @@ class ArenaController extends AppController
         $this->set('myname', "Antoine G");
     }
     
-    public function login()
+    public function logout()
     {
-        if ($this->request->is('post')){
-            if(isset($this->request->data['Registration'])){
-                $this->Player->signUp($this->request->data['Registration']['email'],$this->request->data['Registration']['password']);  
-            }
-        }
- 
-    }
-    
+        CakeSession::destroy();
+        $this->redirect(array("controller"=>"Players",
+                            "action"=>"login"));
+        
+        
+    }    
     public function character()
     {
         if ($this->request->is('post')) {

@@ -25,13 +25,31 @@
                                 'action' => 'index'));
                             ?>
                         </li>
+                        <?php if(!CakeSession::check('name')){
+?>
                         <li>
                             <?php
                             echo $this->Html->link('Login', array(
-                                'controller' => 'Arena',
+                                'controller' => 'Players',
                                 'action' => 'login'));
                             ?>
                         </li>
+                        <?php 
+                        }
+                        else{
+                          ?>  
+                           <li>
+                            <?php
+                            echo $this->Html->link('Logout', array(
+                                'controller' => 'Arena',
+                                'action' => 'logout'));
+                            ?>
+                        </li> 
+                        <?php
+                        
+                        }
+                        
+                        ?>
                         <li>
                             <?php
                             echo $this->Html->link('Sight ', array(
