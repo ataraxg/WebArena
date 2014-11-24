@@ -37,8 +37,8 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->Html->script('vendor/jquery.js');
 		echo $this->Html->script('vendor/fastclick.js');
 		echo $this->Html->script('foundation.min.js');
-                echo $this->Html->script('foundation/foundation.topbar');
-		
+                echo $this->Html->script('foundation/foundation.orbit.js');
+                
 		//balises de cakePHP qui ira placer ici des éventuels ajouts de scripts et de design qui vous mettrez dans vos pages
 		echo $this->fetch('meta');
 		echo $this->fetch('css');

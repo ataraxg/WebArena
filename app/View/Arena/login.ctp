@@ -22,8 +22,7 @@
         </div>
     </div>
     
-    <!-- FINIR LA CONFIGURATION DE FOUNDATION POUR LE JS-->
-
+    
     <div id="myModal" class="reveal-modal" data-reveal> 
         <?php
             echo $this->Form->create('Registration');

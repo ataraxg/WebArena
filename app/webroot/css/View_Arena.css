@@ -12,6 +12,33 @@ and open the template in the editor.
     src: url('../files/Roman SD.ttf') format('truetype');
 }
 
+.sliderButton{
+    margin-left: 4em;
+}
+.sliderNomFigther{
+    text-align: center;
+}
+.slides{
+    width: 25%;
+    
+}
+.large-6{
+    float: left;
+}
+
+.sliderGlobal{
+    background-color: #333333;
+    padding:1em;
+}
+.sliderView{
+    background-color: white;
+    opacity: 0.8;
+    border: 1px solid black;
+    margin: auto;
+    width: 70%;
+    padding:1em;
+    
+}
 h1{color: white;
 padding: 0.5em;}
 
@@ -19,6 +46,7 @@ padding: 0.5em;}
     margin-left: 4em;
 }
 
+<<<<<<< HEAD
 
 .monFooter{
     text-align: center;
@@ -38,3 +66,30 @@ p{
     padding-left: 100px;
     padding-right: 100px;
 }
+=======
+#gamePanel{
+    width:100%;
+    background: #341C45;
+    box-shadow: 1px 1px 14px #0B0703;
+    border-radius: 0.5em;
+    margin: auto;
+}
+
+.gameTable{
+   
+   float: right;
+   margin-right: 2em;
+   margin-top: 1em;
+}
+
+
+.clearfix{
+    clear:both;
+}
+
+.resizeSlider{
+    width: 100%;
+    box-shadow: 2px 2px 15px #0B0803;
+}
+
+>>>>>>> FETCH_HEAD

@@ -261,7 +261,8 @@ App::uses('AppModel', 'Model');
             echo $datas['Fighter']['name']. " attacked " .$opponent['Fighter']['name']. " and succeeded ! Dice : ".$random.", attack : ". $attack;
             $health_left = $opponent['Fighter']['current_health'] - $datas['Fighter']['skill_strength'];
             if(!$this->isDead($opponent, $health_left)) {
-                
+                $opponent['Fighter']['current_health'] = $health_left;
+                 $this->save($opponent);
             }
             
             else {

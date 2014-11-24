@@ -68,7 +68,7 @@ class ArenaController extends AppController
                 $this->Fighter->doAttack(1, $this->request->data['FighterAttack']['direction']);
          }
         }
-        
+        $this->set('name', $this->Fighter->get_carac(1, 'name'));
         $this->set('raw', $this->Fighter->find('all'));
         
 
