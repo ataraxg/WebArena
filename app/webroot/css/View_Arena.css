@@ -43,10 +43,10 @@ h1{color: white;
 padding: 0.5em;}
 
 .bandeau{
-    margin-left: 4em;
+
 }
 
-<<<<<<< HEAD
+
 
 .monFooter{
     text-align: center;
@@ -62,11 +62,21 @@ p{
     font-size: x-small;
 }
 
-.Rules{
+.RulesSection{
+    padding-top: 25px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 25px;
+    
 }
-=======
+
+.Rules{
+    padding: 15px 15px;
+    background-color: white;
+}
+
+
+
 #gamePanel{
     width:100%;
     background: #341C45;
@@ -92,4 +102,19 @@ p{
     box-shadow: 2px 2px 15px #0B0803;
 }
 
->>>>>>> FETCH_HEAD
+.sizeCell{
+    width: 100%;
+}
+
+
+/*table#Arena td{
+    width: 50px;
+    height: 50px;
+}*/
+
+#cell{
+    width: 50px;
+    height: 50px;
+    //background-image: url("../img/perso.jpeg");
+    background:url("../img/decor.png");
+}

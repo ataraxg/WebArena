@@ -3915,3 +3915,1118 @@ Stack Trace:
 #12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
 >>>>>>> footer
+2014-11-24 13:46:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 13:46:31 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 13:46:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 13:46:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 13:46:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-24 13:46:39 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 14:48:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:14:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:16:01 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:16:14 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:28:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:28:15 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:28:16 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:28:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/diary
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('events')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(79): Model->find()
+#8 [internal function]: ArenaController->diary()
+#9 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#10 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#12 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-11-24 15:28:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/character
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(40): Fighter->get_carac(1, 'skill_strength')
+#10 [internal function]: ArenaController->character()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:28:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:28:58 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:29:04 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:31:09 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3539): ConnectionManager::getDataSource('default')
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(3566): Model->setSource('fighters')
+#5 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#7 /Users/CynthiaC/Sites/WebArena/lib/Cake/Model/Model.php(1608): Model->find('first', Array)
+#8 /Users/CynthiaC/Sites/WebArena/app/Model/Fighter.php(202): Model->read(NULL, 1)
+#9 /Users/CynthiaC/Sites/WebArena/app/Controller/ArenaController.php(71): Fighter->get_carac(1, 'name')
+#10 [internal function]: ArenaController->sight()
+#11 /Users/CynthiaC/Sites/WebArena/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ArenaController), Array)
+#12 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#13 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#14 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2014-11-24 15:32:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:32:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:33:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:33:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:33:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:34:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:34:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:34:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:50:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:52:27 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/CynthiaC/Sites/WebArena/app/View/Arena/sight.ctp, line 54]
+2014-11-24 15:52:27 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/CynthiaC...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/CynthiaC...', 54, Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/CynthiaC...', 54, Array)
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:52:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:52:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:53:54 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/CynthiaC/Sites/WebArena/app/View/Arena/sight.ctp, line 54]
+2014-11-24 15:53:54 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/CynthiaC...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/CynthiaC...', 54, Array)
+#2 /Users/CynthiaC/Sites/WebArena/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/CynthiaC...', 54, Array)
+#3 /Users/CynthiaC/Sites/WebArena/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-24 15:54:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:55:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:57:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:57:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:57:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:59:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 15:59:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:01:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:03:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:03:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:04:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:05:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:08:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:09:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:41:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:44:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:44:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:44:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:46:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:50:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:50:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:50:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:52:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:52:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:57:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:57:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:58:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 16:58:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:01:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:02:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:02:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:05:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:14:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:15:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:16:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:40:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:40:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:41:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:41:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:42:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:46:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:46:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:47:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:48:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:49:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:53:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 17:55:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:20:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:20:52 Error: [MissingActionException] Action ArenaController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'images',
+)
+Request URL: /WebArena/Arena/images/search.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 18:21:13 Error: [MissingActionException] Action ArenaController::perso.jpeg() could not be found.
+Exception Attributes: array (
+  'controller' => 'ArenaController',
+  'action' => 'perso.jpeg',
+)
+Request URL: /WebArena/Arena/perso.jpeg
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/CynthiaC/Sites/WebArena/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(ArenaController), Object(CakeRequest))
+#2 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-24 18:21:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:21:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:24:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:24:06 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:26:48 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:28:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:29:08 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:29:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:37:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-24 18:38:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /WebArena/img/perso5.png
+Stack Trace:
+#0 /Users/CynthiaC/Sites/WebArena/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

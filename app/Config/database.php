@@ -69,8 +69,9 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
-		'database' => 'webarena',
+		'password' => 'root',
+		'database' => 'ece_webarena',
+                'port' => 8889,
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

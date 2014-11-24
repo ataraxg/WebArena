@@ -33,15 +33,18 @@
     <h1>GAME PANEL</h1>
     <div id="gamePanel" class="panel">
         
-        <table border=1 class="gameTable">
+        <table border=1 class="gameTable" id="Arena">
             <?php
                 $raws=10;
                 $colums=15;
                 for ($i=$raws;$i>=0; $i--){
-                    echo '<tr class="sizeCell">';
+                    echo '<tr >';
+                   
                     for ($j=0;$j<$colums; $j++){
-                        echo '<td class="sizeCell">&nbsp;';
-                        echo '('.$j.'.'.$i.')';
+                        
+                        echo '<td>';
+                        echo '<input type="button" id="cell">';
+                        /*echo '('.$j.'.'.$i.')';
                         echo "<br>";
                         foreach($raw as $fighter)
                         {
@@ -50,8 +53,11 @@
                                 //echo $this->Html->image("game/perso_front.png", array('fullBase' => true));
                                 echo $fighter['Fighter']['name'];
                             }
-                        }
-                        echo "</td>";
+                        }*/
+                       // echo $this->Html->image('perso.jpeg', array('alt'=>'???', 'width'=>'100%'));
+                       echo '</input>';
+                       echo "</td>";
+                        
                     }
                    echo '</tr>';
                 }
