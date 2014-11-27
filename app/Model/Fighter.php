@@ -324,6 +324,12 @@ App::uses('AppModel', 'Model');
 			
             $this->save($newFighter);
         }
+        
+       /* public function getFighter(){
+            $temp=$this->find('all',array('conditions'=>array(Player_id => CakeSession::read('name'))));
+            return $temp;
+    }*/
+        
 
 }
     

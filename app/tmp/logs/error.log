@@ -646,3 +646,163 @@ Stack Trace:
 #1 C:\wamp\www\WebArena\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PlayersController), Object(CakeRequest))
 #2 C:\wamp\www\WebArena\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-11-25 14:04:11 Error: Fatal Error (1): Call to a member function NewEvent() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 26]
+2014-11-25 14:04:11 Error: [FatalErrorException] Call to a member function NewEvent() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 14:05:25 Error: Fatal Error (1): Call to a member function newEvent() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 26]
+2014-11-25 14:05:25 Error: [FatalErrorException] Call to a member function newEvent() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 14:48:44 Error: Fatal Error (1): Call to a member function newPlayerEvent() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 26]
+2014-11-25 14:48:44 Error: [FatalErrorException] Call to a member function newPlayerEvent() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 14:50:33 Error: Fatal Error (1): Call to a member function newPlayerEvent() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 26]
+2014-11-25 14:50:33 Error: [FatalErrorException] Call to a member function newPlayerEvent() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 14:52:16 Error: Fatal Error (1): Call to a member function newPlayerEvent() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 26]
+2014-11-25 14:52:16 Error: [FatalErrorException] Call to a member function newPlayerEvent() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 14:55:58 Error: Fatal Error (1): Call to a member function newPlayerEvent() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 26]
+2014-11-25 14:55:58 Error: [FatalErrorException] Call to a member function newPlayerEvent() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 26, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 15:04:24 Error: Fatal Error (1): Call to a member function createNew() on a non-object in [C:\wamp\www\WebArena\app\Controller\PlayersController.php, line 24]
+2014-11-25 15:04:24 Error: [FatalErrorException] Call to a member function createNew() on a non-object
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 24, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\wamp\\www\\Web...', 24, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 15:06:00 Error: Fatal Error (1): Call to undefined function CreateEvent() in [C:\wamp\www\WebArena\app\Model\Event.php, line 52]
+2014-11-25 15:06:00 Error: [FatalErrorException] Call to undefined function CreateEvent()
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 52)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 52, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 52, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-25 15:33:34 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\wamp\www\WebArena\app\Model\Event.php, line 24]
+2014-11-25 15:33:34 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /WebArena/Players/login
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 24, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\wamp\\www\\Web...', 24, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:33:35 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:33:35 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:40:20 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:40:20 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:40:54 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:40:54 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:40:55 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:40:55 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:40:59 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:40:59 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:42:18 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:42:18 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-27 14:42:19 Error: Fatal Error (1): Call to undefined function find() in [C:\wamp\www\WebArena\app\Model\Fighter.php, line 329]
+2014-11-27 14:42:19 Error: [FatalErrorException] Call to undefined function find()
+Request URL: /WebArena/Arena/sight
+Stack Trace:
+#0 C:\wamp\www\WebArena\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#2 C:\wamp\www\WebArena\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\wamp\\www\\Web...', 329, Array)
+#3 C:\wamp\www\WebArena\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

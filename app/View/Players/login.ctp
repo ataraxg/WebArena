@@ -27,12 +27,30 @@
     <div id="myModal" class="reveal-modal" data-reveal> 
         <?php
             echo $this->Form->create('Registration');
-
-            echo $this->Form->input('password');
+            
             echo $this->Form->input('email');
+            echo $this->Form->input('password');
 
             echo $this->Form->end('Register now !');
         ?>
     </div>
+    
+<script>
+hello.on('auth.login', function(r){
+	// Get Profile
+	hello( r.network ).api( '/me' ).then( function(p){
+		var label = document.getElementById(r.network)
+		label.innerHTML = "<img src='"+ p.thumbnail + "' width=24/>Connected to "+ r.network+" as " + p.name;
+	});
+});
+hello.init({
+	google : CLIENT_IDS.google,
+	windows : CLIENT_IDS.windows,
+	facebook : CLIENT_IDS.facebook
+},{
+	scope : 'email',
+	redirect_uri:'../redirect.html'
+});
+</script>
     
 </html>

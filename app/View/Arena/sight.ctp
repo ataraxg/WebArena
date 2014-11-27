@@ -14,7 +14,7 @@
             'default' => 'east')
         );
         echo $this->Form->end('Move');
-        
+        echo CakeSession::read('name');
         echo $this->Form->create('FighterAttack');
         echo $this->Form->input('direction', array(
             'options' => array(
@@ -30,5 +30,6 @@
     ?>
     
     <?php pr($raw); ?>
+    <?php pr($xraw); ?>
 
 </html>

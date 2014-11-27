@@ -12,7 +12,8 @@ class ArenaController extends AppController
     public $uses = array('Player', 'Fighter', 'Event');
     
     public function beforeFilter(){
-        if (!CakeSession::check('name')){
+        if (!
+                CakeSession::check('name')){
             
             $this->redirect(array("controller"=>"Players",
                             "action"=>"login"));
@@ -82,8 +83,8 @@ class ArenaController extends AppController
          }
         }
         
-        $this->set('raw', $this->Fighter->find('all'));
-        
+        //$this->set('raw', $this->Fighter->find('all'));
+        $this->set('xraw', $this->Fighter->find('all',array('conditions'=>array(Player_id => CakeSession::read('name')),'fields'=> name)));
 
     }
     
